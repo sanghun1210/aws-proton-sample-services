@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route('/ping', methods=['GET'])
 def healthcheck():
-    print('hello3')
+    print('hello4')
     return "ok"
 
 
